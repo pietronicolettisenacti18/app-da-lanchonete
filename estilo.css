@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header
+{
+    text-align: center;
+    background-image: url(fundo-cabecalho.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    padding: 27px;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    margin-top: 7px;
+    margin-bottom:11px;
+}
+
+label{
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+input,textarea{
+    display: block;
+    width: 10px;
+    height: 38px;
+    background-color: #c4c4c4;
+    border: none;
+    border-radius: 0;
+    color: #202020;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+textarea{
+    height: 94px;
+}
+button{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+
+
+    width: 217px;
+    background-color: #999999;
+    border:0;
+}
